@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\nint main() {\r\n  int a;\r\n  scanf(\"%d\", &a);\r\n  printf(\"Hexadecimal: %X\", a);\r\n\r\n  printf(\"Octal: %o\", a);\r\n\r\n  return 0;\r\n}","language":"c","time":"2025-07-12T22:31:01.954Z","isCorrect":false}]
