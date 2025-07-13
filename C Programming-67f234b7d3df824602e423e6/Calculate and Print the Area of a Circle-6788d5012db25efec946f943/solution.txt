@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\nint main(){\r\n    float a;\r\n    scanf(\"%f\", &a);\r\n    float area;\r\n    area = 3.14*a*a;\r\n    printf(\"Area: %f\\n\", area);\r\n    return 0;\r\n}","language":"c","time":"2025-07-13T06:50:53.308Z","isCorrect":false}]
