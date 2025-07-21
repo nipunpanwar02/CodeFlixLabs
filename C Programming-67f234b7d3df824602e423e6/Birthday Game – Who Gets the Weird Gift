@@ -1,0 +1,1 @@
+[{"code":"int findPrankReceiver(int n, int m, int s) {\r\n    int prankFriend = (s + m - 1) % n;\r\n    if (prankFriend == 0) {\r\n        prankFriend = n;\r\n    }\r\n    return prankFriend;\r\n}\r\n","language":"c","time":"2025-07-21T17:48:06.334Z","isCorrect":true}]
