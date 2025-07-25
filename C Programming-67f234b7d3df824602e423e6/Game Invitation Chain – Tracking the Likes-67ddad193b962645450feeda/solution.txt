@@ -1,0 +1,1 @@
+[{"code":"int totalLikes(int n) {\r\n    int invites = 5;\r\n    int total_likes = 0;\r\n\r\n    for (int i = 0; i < n; i++) {\r\n        int likes = invites / 2;\r\n        total_likes += likes;\r\n        invites = likes * 3;\r\n    }\r\n\r\n    return total_likes;\r\n}","language":"c","time":"2025-07-25T17:37:53.757Z","isCorrect":true}]
